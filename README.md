@@ -17,7 +17,7 @@ AgriTwin-RL is a Reinforcement Learning pipeline designed to optimize agricultur
 
 ## 🚀 How to Run Locally
 ```bash
-git clone [https://github.com/yourusername/AgriTwin-RL.git](https://github.com/yourusername/AgriTwin-RL.git)
+git clone https://github.com/Rdargie/AgriTwin-RL.git
 cd AgriTwin-RL
 conda env create -f environment.yml
 conda activate agritwin
