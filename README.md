@@ -36,3 +36,4 @@ The AI successfully learned the crop's S-curve growth pattern. However, because 
 As training scaled, the agent discovered a loophole in the environment's reward structure. Since water was penalized too lightly and there was no physical penalty for over-saturation, the agent maximized its reward by over-irrigating to guarantee peak biomass. This perfectly demonstrates how AI optimizes exactly for the given reward function, highlighting the importance of strict hyperparameter tuning in simulated environments.
 
 ![100K Steps - Reward Hacking](assets/100k_steps.png)
+```
