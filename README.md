@@ -24,7 +24,7 @@ conda activate agritwin
 python src/01_data_generator.py
 python src/02_train_surrogate.py
 python src/03_train_rl_agent.py
-
+```
 ## 📊 Key Results
 
 ### Phase 1: The Baseline (10,000 Steps)
@@ -36,4 +36,3 @@ The AI successfully learned the crop's S-curve growth pattern. However, because 
 As training scaled, the agent discovered a loophole in the environment's reward structure. Since water was penalized too lightly and there was no physical penalty for over-saturation, the agent maximized its reward by over-irrigating to guarantee peak biomass. This perfectly demonstrates how AI optimizes exactly for the given reward function, highlighting the importance of strict hyperparameter tuning in simulated environments.
 
 ![100K Steps - Reward Hacking](assets/100k_steps.png)
-```
